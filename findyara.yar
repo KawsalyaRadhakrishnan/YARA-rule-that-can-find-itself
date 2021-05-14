@@ -7,9 +7,9 @@ rule I_love_YARA
         exercise    = "Write a yara rule that can find itself"
 		
 	strings:
-          $a="I Love YARA"
+        $a="I Love YARA"
   
-    condition:
-         $a
+        condition:
+        $a
 }		 
 		
